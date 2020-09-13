@@ -3,13 +3,21 @@
 	src:url(SkModernist.otf);
 }
 body{
-	background-color: none; 
+	background-color: black; 
 	background-image: ; 
 	background-attachment: fixed;
 	font-family: SkModernist;
-	font-weight: ;
+	font-size: 100%;
 	color: black;
 	margin: 0%;
+}
+footer{
+	background-color: black;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 a:link {
@@ -23,11 +31,21 @@ color: black ;
 a:hover {
 text-decoration: none;
 color:  black ;
-background-color: white;
+
+}
+a:hover:before,
+a:hover:after {
+width: 100%;
 }
 a:active {
 text-decoration: none;
 color:  black ;
+}
+/*Pagina de Inicio*/
+#titulo {
+	width: 30%;
+	margin: auto;
+	margin-top: 12%;
 }
 #logo {
 	border-color: black;
@@ -61,27 +79,16 @@ color:  black ;
 	0% { right: -50%; top:0%;}
 	100% {right:0%; top:0%;}
 }
-#titulo {
-	width: 30%;
-	margin: auto;
-	margin-top: 12%;
+/*Pagina de Kintsugi*/
+#body {
+	background-color: blue;
 }
 #contenedor{
 	margin: 0%;
 	height:100%;
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
-	z-index:1;
 	background-color: white;
-}
-.lista{
-	width:14.2%;
-	display: flex;
-	align-items: center;
-}
-.kintsugi{
-	width: 80%;
 }
 #menu {
 	margin: 0%;
@@ -100,10 +107,20 @@ color:  black ;
 .mynav a {
 	color:  white;
 	text-decoration: none;
-	padding: 7px 15px;
+
 }
+.lista{
+	width:14.2%;
+	display: flex;
+	align-items: center;
+}
+.kintsugi{
+	width: 80%;
+}
+
 #contenido {
-	
+	margin: 0%;
+	height: 300px;
 }
 #pie {
 	background-color: none;
@@ -116,7 +133,6 @@ color:  black ;
 	display: block;
 	border: white  solid;
 	border-radius: 15px;
-
 }
 .imagen {
 	width: 8%;
@@ -125,13 +141,6 @@ color:  black ;
 	margin-left: auto;
 	margin-right: auto;
 }
-footer{
-	background-color: black;
-    width: 100%;
-    height: 10%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+
 
 
